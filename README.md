@@ -48,6 +48,8 @@ Evaluates specification documents against Claude Code's context window constrain
 /scope-check docs/feature-spec.md --stack typescript --tdd comprehensive
 ```
 
+**Example Output:** See [scope-check-example.md](scope-check-example.md) for a real-world example analyzing a complex AI Virtual Car Showroom spec.
+
 See [scope-check documentation](skills/scope-check/SKILL.md) for full details.
 
 ## Research Foundation
