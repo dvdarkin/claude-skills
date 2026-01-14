@@ -1,0 +1,13 @@
+{
+  "name": "scope-check",
+  "description": "Evaluates specification complexity against context window constraints. Automatically activates before writing design documents or implementation plans to prevent context budget overruns and mid-implementation context collapse.",
+  "version": "1.0.1",
+  "author": {
+    "name": "Denis Darkin",
+    "email": "dvdarkin@gmail.com"
+  },
+  "homepage": "https://github.com/dvdarkin/claude-skills",
+  "repository": "https://github.com/dvdarkin/claude-skills",
+  "license": "MIT",
+  "keywords": ["scope", "context-window", "planning", "specifications", "chunking"]
+}
