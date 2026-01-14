@@ -50,17 +50,14 @@ Evaluates specification documents against Claude Code's context window constrain
 
 **Example Output:** See [scope-check-example.md](scope-check-example.md) for a real-world example analyzing a complex AI Virtual Car Showroom spec.
 
-See [scope-check documentation](skills/scope-check/SKILL.md) for full details.
-
-## Research Foundation
-
-Skills in this collection are based on empirical research including:
-
+**Research Foundation:**
 - QSM Database: Function Point to LOC ratios (2,192 projects)
 - IFPUG ISO/IEC 20926:2009: Function Point counting standards
 - Liu et al. (2024): "Lost in the Middle" - context position bias
 - Chroma Research: "Context Rot" study across 18 LLMs
 - RULER Benchmark: Long-context model evaluation
+
+See [scope-check documentation](skills/scope-check/SKILL.md) for full details.
 
 ## Contributing
 
