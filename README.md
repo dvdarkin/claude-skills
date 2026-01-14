@@ -16,6 +16,7 @@ A collection of Claude Code skills for enhanced AI-assisted development workflow
 /plugin marketplace add dvdarkin/claude-skills
 /plugin install scope-check@dvdarkin
 ```
+Restart Claude Code to pick up the new skill.
 
 ### Manual Installation
 
