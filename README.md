@@ -7,6 +7,7 @@ A collection of Claude Code skills for enhanced AI-assisted development workflow
 | Skill | Description |
 |-------|-------------|
 | [scope-check](skills/scope-check/SKILL.md) | Context window evaluation and chunking strategy tool. Prevents mid-implementation context collapse by validating document size before writing large design documents or implementation plans. |
+| [benji-taylor-design-eval](skills/benji-taylor-design-eval/SKILL.md) | Structured design critique based on Benji Taylor's six principles (progressive disclosure, fluidity, simplicity/delight triad, craft, trust through clarity, accessibility). Evaluates any product or interface against these dimensions. |
 
 ## Installation
 
@@ -58,6 +59,18 @@ Evaluates specification documents against Claude Code's context window constrain
 - RULER Benchmark: Long-context model evaluation
 
 See [scope-check documentation](skills/scope-check/SKILL.md) for full details.
+
+### benji-taylor-design-eval
+
+Evaluates a product or interface against six design principles drawn from Benji Taylor's work (Family wallet, Base, X). Produces a structured critique covering progressive disclosure, fluidity, simplicity/fluidity/delight triad, craft, trust through clarity, and accessibility without depth sacrifice.
+
+**Best for:** Consumer products and prosumer tools. Less directly applicable to pure developer tooling or enterprise software (flag and adapt rather than skip).
+
+**Quick Start:**
+```
+Invoke the skill when reviewing any product design, UI screenshots, or mockups.
+Ask: "evaluate this design" or "what would a great designer change here"
+```
 
 ## Contributing
 
